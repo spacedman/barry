@@ -1,29 +1,15 @@
-{% extends "foundation.j2" %}
-{% block body %}
-<div class="row">
-  <div class="large-3 columns">
-    <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
-  </div>
-  <div class="large-9 columns">
-    <ul class="right button-group">
-      <li><a href="#" class="button">Link 1</a></li>
-      <li><a href="#" class="button">Link 2</a></li>
-      <li><a href="#" class="button">Link 3</a></li>
-      <li><a href="#" class="button">Link 4</a></li>
-    </ul>
-  </div>
-</div>
-  
-<!-- End Header and Nav -->
+{% extends "topbottom.j2" %}
+{% block title %}About Me{% endblock title %}
+{% block content %}
  
 <!-- First Band (Slider) -->
  
 <div class="row">
   <div class="large-12 columns">
     <div data-orbit id="slider">
-      <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
-      <img src="http://placehold.it/1000x400&text=[ img 2 ]" />
-      <img src="http://placehold.it/1000x400&text=[ img 3 ]" />
+      <img src="http://placekitten.com/1000/400" />
+      <img src="http://placekitten.com/1000/399" />
+      <img src="http://placekitten.com/1000/398" />
     </div>
     
     <hr />
@@ -34,21 +20,28 @@
  
 <div class="row">
   <div class="large-4 columns">
-    <img src="http://placehold.it/400x300&text=[img]" />
-    <h4>This is a content section.</h4>
-    <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+    <img src="http://placekitten.com/400/300" />
+    <h4><a href="work.html">My Work</a></h4>
+    <p>
+I am a Research Fellow in the Division of Medicine, part of the Faculty of Health and Medicine at Lancaster University. Before that I worked in the Department of Mathematics and Statistics. I research into statistical applications in epidemiology and other health-related areas.
+</p>
   </div>
     
   <div class="large-4 columns">
     <img src="http://placehold.it/400x300&text=[img]" />
-    <h4>This is a content section.</h4>
-    <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+    <h4>My Life</h4>
+    <p>
+I play assorted instruments, take pictures in exotic places, and drive an old Land Rover. Here's all the 
+things about me that aren't work-related.
+</p>
   </div>
     
   <div class="large-4 columns">
     <img src="http://placehold.it/400x300&text=[img]" />
-    <h4>This is a content section.</h4>
-    <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+    <h4>My News</h4>
+    <p>
+You'll find my latest blog entries here - occasional musings intended to keep this page alive and interesting.
+</p>
   </div>
   
 </div>
@@ -62,10 +55,10 @@
         
       <div class="row">
         <div class="large-9 columns">
-          <p>We'd love to hear from you, you attractive person you.</p>
+          <p>My email is <a href="mailto:b.rowlingson@gmail.com">b.rowlingson@gmail.com</a>, but you can find me on twitter and various other places.</p>
         </div>
         <div class="large-3 columns">
-          <a href="#" class="radius button right">Contact Us</a>
+          <a href="contact.html" class="radius button right">Contact Details</a>
         </div>
       </div>
     </div>
@@ -73,25 +66,5 @@
   </div>
 </div>
  
-  <!-- Footer -->
-  
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </footer>
-    
-{% endblock body %}
+ 
+{% endblock content %}

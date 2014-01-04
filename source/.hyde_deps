@@ -10,10 +10,12 @@
 !!python/unicode 'blog/tags/sad.html': [macros.j2, base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/thoughts.html': [macros.j2, base.j2, tagged_posts.j2,
   analytics.j2]
+!!python/unicode 'contact.html': []
 !!python/unicode 'css/foundation.css': []
 !!python/unicode 'css/foundation.min.css': []
 !!python/unicode 'css/normalize.css': []
 !!python/unicode 'index.html': [foundation.j2, orbithomepage.j2]
+!!python/unicode 'life.html': []
 !!python/unicode 'media/css/foundation.css': []
 !!python/unicode 'media/css/foundation.min.css': []
 !!python/unicode 'media/css/normalize.css': []
@@ -48,3 +50,4 @@
 !!python/unicode 'media/js/vendor/jquery.js': []
 !!python/unicode 'media/js/vendor/placeholder.js': []
 !!python/unicode 'portfolio/index.html': [macros.j2, base.j2, analytics.j2]
+!!python/unicode 'work.html': []
