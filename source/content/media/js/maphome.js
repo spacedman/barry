@@ -2,16 +2,23 @@
 
 var map = L.map('map').setView([20, 0], 2);
 
-// L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
-//     maxZoom: 18,
-//     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
-// }).addTo(map);
 
 //add a tile layer to add to our map, in this case it's the 'standard' OpenStreetMap.org tile server
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+var baseMap = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
     maxZoom: 18
-}).addTo(map);
+});
+
+var sMap = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, ' +
+                                        '<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; ' +
+                                        'Map data {attribution.OpenStreetMap}',
+    maxZoom: 16, minZoom: 2
+});
+
+
+
+sMap.addTo(map);
 
 var RedIcon = L.Icon.Default.extend({
     options: {iconUrl: "/media/img/marker-red.png"}
@@ -34,9 +41,11 @@ var researchLayer = new L.geoJson(research, {
 	});
     },
     onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.title);
+        layer.bindPopup("Research: <a href='"+feature.properties.link+"'>" + feature.properties.title+"</a>");
     }
-}).addTo(map);
+});
+
+// researchLayer.addTo(map);
 
 var teachingLayer = new L.geoJson(teaching, {
     pointToLayer: function (feature, latLng) {
@@ -46,9 +55,9 @@ var teachingLayer = new L.geoJson(teaching, {
     },
 
     onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.title);
+        layer.bindPopup("Teaching: <a href='"+feature.properties.link+"'>" + feature.properties.title+"</a>");
     }
-}).addTo(map);
+});
 
 var travelLayer = new L.geoJson(travel, {
     pointToLayer: function (feature, latLng) {
@@ -58,6 +67,19 @@ var travelLayer = new L.geoJson(travel, {
     },
 
     onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.title);
+	layer.bindPopup("Travels: <a href='"+feature.properties.link+"'>" + feature.properties.title+"</a>");        
     }
-}).addTo(map);
+});
+
+map.addLayer(researchLayer);
+map.addLayer(teachingLayer);
+map.addLayer(travelLayer);
+
+var overlayMaps = {
+    "Travel": travelLayer,
+    "Research": researchLayer,
+    "Teaching": teachingLayer
+};
+
+L.control.layers([], overlayMaps).addTo(map);
+
