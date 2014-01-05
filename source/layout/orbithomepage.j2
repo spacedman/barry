@@ -1,4 +1,16 @@
 {% extends "topbottom.j2" %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js?2"></script>
+{% endblock extrahead %}
+
+{% block bodyfoot %}
+<script src="/media/maps/research.geojson"></script>
+<script src="/media/maps/teaching.geojson"></script>
+<script src="/media/js/maphome.js"></script>
+{% endblock bodyfoot %}
+
 {% block title %}About Me{% endblock title %}
 {% block content %}
  
@@ -6,10 +18,8 @@
  
 <div class="row">
   <div class="large-12 columns">
-    <div data-orbit id="slider">
-      <img src="http://placekitten.com/1000/400" />
-      <img src="http://placekitten.com/1000/399" />
-      <img src="http://placekitten.com/1000/398" />
+    <div id="map" style="height: 400px">
+
     </div>
     
     <hr />

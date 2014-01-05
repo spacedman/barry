@@ -6,8 +6,12 @@
     <title>{% block title %}Barry Rowlingson{% endblock title %}</title>
     <link rel="stylesheet" href="media/css/foundation.css" />
     <script src="media/js/modernizr.js"></script>
+{% block extrahead %}
+{% endblock extrahead %}
   </head>
   <body>
+{% block bodytop %}
+{% endblock bodytop %}
 {% block body %}
 Hi
 {% endblock body %}  
@@ -19,5 +23,7 @@ Hi
   var doc = document.documentElement;
   doc.setAttribute('data-useragent', navigator.userAgent);
 </script>
+{% block bodyfoot %}
+{% endblock bodyfoot %}
   </body>
 </html>
