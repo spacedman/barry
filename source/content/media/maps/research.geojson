@@ -20,6 +20,8 @@ var research=[
 { "type": "Feature", "properties": { "id": 10, "title": "Meningitis Forecasting", "descriptio": null, "date": null, "link": "meningitis.html" }, "geometry": { "type": "Point", "coordinates": [ 6.172669456464479, 15.267395668554396 ] } }
 ,
 { "type": "Feature", "properties": { "id": 82, "title": "Visiting UWA in Perth", "descriptio": null, "date": null, "link": "uwa.html" }, "geometry": { "type": "Point", "coordinates": [ 115.875379770514073, -31.940184645922479 ] } }
+,
+{ "type": "Feature", "properties": { "id": 123, "title": "FOSS4G 2013 Conference", "descriptio": null, "date": null, "link": "foss4g.html" }, "geometry": { "type": "Point", "coordinates": [ -1.202760874552124, 52.939173391194068 ] } }
 
 ]
 }
