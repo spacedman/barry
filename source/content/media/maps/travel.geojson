@@ -1,0 +1,22 @@
+var travel=[
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": 2, "title": "Cycling the Ridgeway", "link": "ridgeway.html" }, "geometry": { "type": "Point", "coordinates": [ -1.85446716344477, 51.427496719882669 ] } }
+,
+{ "type": "Feature", "properties": { "id": 1, "title": "Overland to Morocco", "link": "morocco.html" }, "geometry": { "type": "Point", "coordinates": [ -5.855958634275384, 32.544538637686699 ] } }
+,
+{ "type": "Feature", "properties": { "id": 4, "title": "California travels", "link": "california.html" }, "geometry": { "type": "Point", "coordinates": [ -121.87734654090211, 36.579150072225644 ] } }
+,
+{ "type": "Feature", "properties": { "id": 3, "title": "Travels in Oman", "link": "oman.html" }, "geometry": { "type": "Point", "coordinates": [ 58.46608042432257, 23.571038232553384 ] } }
+,
+{ "type": "Feature", "properties": { "id": 6, "title": "Sea Otters of Alaska", "link": "seaotters.html" }, "geometry": { "type": "Point", "coordinates": [ -145.940702491501497, 60.626799507423513 ] } }
+,
+{ "type": "Feature", "properties": { "id": 23, "title": "Aussie Adventures", "link": "australia.html" }, "geometry": { "type": "Point", "coordinates": [ 113.950830384165982, -22.151083233124471 ] } }
+,
+{ "type": "Feature", "properties": { "id": 12, "title": "Travels in Japan", "link": "japan.html" }, "geometry": { "type": "Point", "coordinates": [ 139.765696896875085, 35.676487768269688 ] } }
+
+]
+}
+];

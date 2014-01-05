@@ -52,5 +52,6 @@
 !!python/unicode 'media/js/vendor/placeholder.js': []
 !!python/unicode 'media/maps/research.geojson': []
 !!python/unicode 'media/maps/teaching.geojson': []
+!!python/unicode 'media/maps/travel.geojson': []
 !!python/unicode 'portfolio/index.html': [macros.j2, base.j2, analytics.j2]
 !!python/unicode 'work.html': []

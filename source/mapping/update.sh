@@ -2,7 +2,7 @@
 
 DEST=../content/media/maps/
 
-for map in research teaching ; do
+for map in research teaching travel ; do
     rm -f tmp.geojson
     ogr2ogr -f GeoJSON tmp.geojson ${map}.shp
     echo "var $map=[" >$DEST/${map}.geojson
