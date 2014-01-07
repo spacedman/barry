@@ -1,0 +1,35 @@
+{% macro articleRight(heading,image) -%}
+<article>
+<div class="row">
+<div class="large-12 columns">
+<h3>{{heading}}</h3>
+</div>
+</div>
+<div class="row">
+<div class="medium-3 columns medium-push-9">
+<img  src="/media/img/{{image}}" />
+</div>
+<div class="medium-9 medium-pull-3 columns">
+{{ caller() }}
+</div>
+</div>
+</article>
+{%- endmacro %}
+
+{% macro articleLeft(heading,image) -%}
+<article>
+<div class="row">
+<div class="large-12 columns">
+<h3>{{heading}}</h3>
+</div>
+</div>
+<div class="row">
+<div class="medium-3 columns">
+<img  src="/media/img/{{image}}" />
+</div>
+<div class="medium-9 columns">
+{{ caller() }}
+</div>
+</div>
+</article>
+{%- endmacro %}

@@ -1,3 +1,4 @@
+!!python/unicode '.hyde_deps': []
 !!python/unicode 'about.html': [macros.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/angry-post.html': [blog.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
@@ -54,4 +55,5 @@
 !!python/unicode 'media/maps/teaching.geojson': []
 !!python/unicode 'media/maps/travel.geojson': []
 !!python/unicode 'portfolio/index.html': [macros.j2, base.j2, analytics.j2]
+!!python/unicode 'research.html': [parts.html, topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'work.html': [topbottom.j2, foundation.j2, contentonly.j2]

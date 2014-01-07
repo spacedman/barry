@@ -1,0 +1,65 @@
+{% extends "contentonly.j2" %}
+{% import "parts.html" as parts %}
+{% block title %}Barry Rowlingson - Work{% endblock title %}
+
+{% block section %}
+<h1>Research Work</h1>
+<p>
+Since I started my research career I've been involved in many projects. Here I'll
+list a few of the more interesting and significant ones.
+</p>
+
+<hr/>
+
+{% call parts.articleRight('Modelling Childhood Malaria in The Gambia','gambiamalaria.png') %}
+<p>
+Using model-based geostatistics we looked at the prevalence of 
+malaria in children in The Gambia. By considering the spatial autocorrelation in the 
+village survey data, we can come up with a model that makes meaningful predictions on the 
+rate of malaria based on bednet usage. This lets us answer 'what-if' questions about the effect
+on malaria rates based on possible increased distribution and use of treated or untreated bednets.
+</p>
+<p>This work was published in <a href="http://onlinelibrary.wiley.com/doi/10.1111/1467-9876.00283/abstract">JRSS Series C</a></p>
+{% endcall %}
+
+
+<hr/>
+
+{% call parts.articleLeft('Meningitis Prediction','gambiamalaria.png') %}
+<p>this is all about that thing</p>
+<p>This is some more thing</p>
+{% endcall %}
+
+<hr/>
+
+{% call parts.articleRight('Loaloa treatment risk mapping','gambiamalaria.png') %}
+<p>this is all about that thing</p>
+<p>This is some more thing</p>
+{% endcall %}
+
+<hr/>
+
+{% call parts.articleLeft('Mapping NHS Prescription Spending','prescribing.png') %}
+<p>The NHS began to release data on prescription medicine spending for England in 2012. We took
+some of the first released data, and related this to published GP practice data to get maps
+of spending. We also created smoothed maps of spending rates to look for areas where spending on
+certain drugs was significantly higher than the national average.</p>
+<p>The generated maps reveal some patterns, such as the difference in average spend per child on
+Metformin, a drug licensed for ADHD treatment, on either sides of the Mersey.</p>
+<p>The research is published under an Open Access license in <a href="http://bmjopen.bmj.com/content/3/1/e001363.full">BMJ Open</a>,
+and all the data is released under an Open license too.</p>
+{% endcall %}
+
+{% call parts.articleRight('Hospital Admissions Prediction','gambiamalaria.png') %}
+<p>this is all about that thing</p>
+<p>This is some more thing</p>
+{% endcall %}
+
+{% call parts.articleLeft('Gastro-Intestinal Outbreak Surveillance','gambiamalaria.png') %}
+<p>AEGISS and AEGISS2</p>
+<p>This is some more thing</p>
+{% endcall %}
+
+
+{% endblock section %}
+
