@@ -1,5 +1,13 @@
-{% extends "foundation.j2" %}
-{% block body %}
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barry Rowlingson</title>
+    <link rel="stylesheet" href="/media/css/foundation.css" />
+    <script src="/media/js/modernizr.js"></script>
+  </head>
+  <body>
 <div class="row">
   <div class="large-3 columns">
     <h1><img src="/media/img/logo.png" /></h1>
@@ -14,9 +22,15 @@
   </div>
 </div>
 
-{% block content %}
-
-{% endblock content %}
+<div class="row">
+<div class="large-12 columns">
+<section class="archives">
+<h1 class="tag title"></h1>
+<ul class="posts clear">
+</ul>
+</section>
+</div>
+</div>
   <!-- Footer -->
   
   <footer class="row">
@@ -28,7 +42,7 @@
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
-            <li><a href="siteinfo.html">Site Info</a></li>
+            <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>
             <li><a href="#">Link 3</a></li>
             <li><a href="#">Link 4</a></li>
@@ -37,4 +51,14 @@
       </div>
     </div> 
   </footer>
-{% endblock body %}
+  
+<script src="/media/js/jquery.js"></script>
+<script src="/media/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+  
+  var doc = document.documentElement;
+  doc.setAttribute('data-useragent', navigator.userAgent);
+</script>
+  </body>
+</html>
