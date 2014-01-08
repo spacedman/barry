@@ -56,4 +56,5 @@
 !!python/unicode 'media/maps/travel.geojson': []
 !!python/unicode 'portfolio/index.html': [macros.j2, base.j2, analytics.j2]
 !!python/unicode 'research.html': [parts.html, topbottom.j2, foundation.j2, contentonly.j2]
+!!python/unicode 'siteinfo.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'work.html': [topbottom.j2, foundation.j2, contentonly.j2]
