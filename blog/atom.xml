@@ -7,59 +7,23 @@
         <link href="/"/>
     
         
-    <updated>2014-01-08T20:51:15Z</updated>
+    <updated>2014-01-08T22:29:51Z</updated>
 
     <id>/blog/atom.xml/</id>
 
             <entry>
-            <title type="html">A Happy Post</title>
+            <title type="html">This New Site</title>
             <author><name>Lakshmi Vyasarajan</name></author>
-            <link href="/blog/happy-post.html"/>
-            <updated>2011-02-01T10:00:00Z</updated>
-            <published>2011-02-01T10:00:00Z</published>
-            <id>/blog/happy-post.html</id>
+            <link href="/blog/newblog-post.html"/>
+            <updated>2014-01-08T18:00:00Z</updated>
+            <published>2014-01-08T18:00:00Z</published>
+            <id>/blog/newblog-post.html</id>
                         <category   scheme="/blog/tags"
-                        term="happy"
-                        label="Happy" />
-                        <category   scheme="/blog/tags"
-                        term="thoughts"
-                        label="Thoughts" />
+                        term="web"
+                        label="Web" />
             
             <content type="html">
-                                            </content>
-        </entry>
-            <entry>
-            <title type="html">An Angry Post</title>
-            <author><name>Lakshmi Vyasarajan</name></author>
-            <link href="/blog/angry-post.html"/>
-            <updated>2011-01-01T10:00:00Z</updated>
-            <published>2011-01-01T10:00:00Z</published>
-            <id>/blog/angry-post.html</id>
-                        <category   scheme="/blog/tags"
-                        term="angry"
-                        label="Angry" />
-                        <category   scheme="/blog/tags"
-                        term="thoughts"
-                        label="Thoughts" />
-            
-            <content type="html">
-                                            </content>
-        </entry>
-            <entry>
-            <title type="html">A Sad Post</title>
-            <author><name>Lakshmi Vyasarajan</name></author>
-            <link href="/blog/sad-post.html"/>
-            <updated>2010-12-01T10:00:00Z</updated>
-            <published>2010-12-01T10:00:00Z</published>
-            <id>/blog/sad-post.html</id>
-                        <category   scheme="/blog/tags"
-                        term="sad"
-                        label="Sad" />
-                        <category   scheme="/blog/tags"
-                        term="thoughts"
-                        label="Thoughts" />
-            
-            <content type="html">
-                                            </content>
+                                &lt;p&gt;My home page has been unchanged for years. This is it.
+abc&amp;nbsp;123&lt;/p&gt;            </content>
         </entry>
     </feed>
