@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-133658.89540266460971907</xmin>
-            <ymin>6971966.19285356625914574</ymin>
-            <xmax>-133143.0210332342539914</xmax>
-            <ymax>6972418.04907835647463799</ymax>
+            <xmin>-380296.12037296715425327</xmin>
+            <ymin>6747336.43582045566290617</ymin>
+            <xmax>67219.48367965576471761</xmax>
+            <ymax>7139316.9709364278241992</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="research20140105161742933">
+    <legend updateDrawingOrder="true" activeLayer="travel20140105163021127">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="travel [7]" showFeatureCount="1">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="travel20140105163021127" visible="1"/>
@@ -48,7 +48,7 @@
     <projectlayers layercount="4">
         <maplayer minimumScale="0" maximumScale="1e+08" ol_layer_type="4" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
             <id>OpenLayers_plugin_layer20140105123229346</id>
-            <datasource></datasource>
+            <datasource>.</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -140,9 +140,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -170,7 +170,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">ogr</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -219,9 +219,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -298,9 +298,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>

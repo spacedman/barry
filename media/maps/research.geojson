@@ -3,25 +3,25 @@ var research=[
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "id": 2, "title": "Loa loa treatment risk mapping", "descriptio": null, "date": null, "link": "loaloa.html" }, "geometry": { "type": "Point", "coordinates": [ 14.975490538543008, 6.794105088950479 ] } }
+{ "type": "Feature", "properties": { "id": 2, "title": "Loa loa treatment risk mapping", "descriptio": null, "date": null, "link": "research.html#loaloa" }, "geometry": { "type": "Point", "coordinates": [ 14.975490538543008, 6.794105088950479 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 1, "title": "Analysing Legionnaire's Disease", "descriptio": null, "date": null, "link": "legion.html" }, "geometry": { "type": "Point", "coordinates": [ -4.231277810874711, 55.866174556795428 ] } }
+{ "type": "Feature", "properties": { "id": 1, "title": "Analysing Legionnaire's Disease", "descriptio": null, "date": null, "link": "research.html#legion" }, "geometry": { "type": "Point", "coordinates": [ -4.231277810874711, 55.866174556795428 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 8, "title": "Alder Hey Admission Forecasting", "descriptio": null, "date": null, "link": "alderhey.html" }, "geometry": { "type": "Point", "coordinates": [ -2.898476278359631, 53.420175096345801 ] } }
+{ "type": "Feature", "properties": { "id": 8, "title": "Alder Hey Admission Forecasting", "descriptio": null, "date": null, "link": "research.html#alderhey" }, "geometry": { "type": "Point", "coordinates": [ -2.898476278359631, 53.420175096345801 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 6, "title": "Mapping Prescribing Data", "descriptio": null, "date": null, "link": "prescribing.html" }, "geometry": { "type": "Point", "coordinates": [ -2.784560846465066, 54.010394536707054 ] } }
+{ "type": "Feature", "properties": { "id": 6, "title": "Mapping Prescribing Data", "descriptio": null, "date": null, "link": "research.html#prescribing" }, "geometry": { "type": "Point", "coordinates": [ -2.784560846465066, 54.010394536707054 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 5, "title": "Health Surveillance in Hampshire", "descriptio": null, "date": null, "link": "aegiss.html" }, "geometry": { "type": "Point", "coordinates": [ -1.401653260094597, 51.005516903620141 ] } }
+{ "type": "Feature", "properties": { "id": 5, "title": "Health Surveillance in Hampshire", "descriptio": null, "date": null, "link": "research.html#aegiss" }, "geometry": { "type": "Point", "coordinates": [ -1.401653260094597, 51.005516903620141 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 4, "title": "Childhood Malaria", "descriptio": null, "date": null, "link": "malaria.html" }, "geometry": { "type": "Point", "coordinates": [ -16.522317042258408, 13.388907573157795 ] } }
+{ "type": "Feature", "properties": { "id": 4, "title": "Childhood Malaria", "descriptio": null, "date": null, "link": "research.html#malaria" }, "geometry": { "type": "Point", "coordinates": [ -16.522317042258408, 13.388907573157795 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 3, "title": "Butterfly habitat analysis", "descriptio": null, "date": null, "link": "butterfly.html" }, "geometry": { "type": "Point", "coordinates": [ 116.022511887801215, -31.950870433357345 ] } }
+{ "type": "Feature", "properties": { "id": 3, "title": "Butterfly habitat analysis", "descriptio": null, "date": null, "link": "research.html#butterfly" }, "geometry": { "type": "Point", "coordinates": [ 116.022511887801215, -31.950870433357345 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 10, "title": "Meningitis Forecasting", "descriptio": null, "date": null, "link": "meningitis.html" }, "geometry": { "type": "Point", "coordinates": [ 6.172669456464479, 15.267395668554396 ] } }
+{ "type": "Feature", "properties": { "id": 10, "title": "Meningitis Forecasting", "descriptio": null, "date": null, "link": "research.html#meningitis" }, "geometry": { "type": "Point", "coordinates": [ 6.172669456464479, 15.267395668554396 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 82, "title": "Visiting UWA in Perth", "descriptio": null, "date": null, "link": "uwa.html" }, "geometry": { "type": "Point", "coordinates": [ 115.875379770514073, -31.940184645922479 ] } }
+{ "type": "Feature", "properties": { "id": 82, "title": "Visiting UWA in Perth", "descriptio": null, "date": null, "link": "work.html#other" }, "geometry": { "type": "Point", "coordinates": [ 115.875379770514073, -31.940184645922479 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 123, "title": "FOSS4G 2013 Conference", "descriptio": null, "date": null, "link": "foss4g.html" }, "geometry": { "type": "Point", "coordinates": [ -1.202760874552124, 52.939173391194068 ] } }
+{ "type": "Feature", "properties": { "id": 123, "title": "FOSS4G 2013 Conference", "descriptio": null, "date": null, "link": "work.html#other" }, "geometry": { "type": "Point", "coordinates": [ -1.202760874552124, 52.939173391194068 ] } }
 
 ]
 }

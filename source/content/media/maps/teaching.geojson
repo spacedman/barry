@@ -3,19 +3,19 @@ var teaching=[
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "id": 4, "title": "Teaching at Lancaster", "link": "teachinglancaster.html" }, "geometry": { "type": "Point", "coordinates": [ -2.785021002071014, 54.008522608142222 ] } }
+{ "type": "Feature", "properties": { "id": 4, "title": "Teaching at Lancaster", "link": "teaching.html#lancaster" }, "geometry": { "type": "Point", "coordinates": [ -2.785021002071014, 54.008522608142222 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 3, "title": "R Workshops for Stafford University", "link": "stafford.html" }, "geometry": { "type": "Point", "coordinates": [ -2.176196539448072, 53.007787915595344 ] } }
+{ "type": "Feature", "properties": { "id": 3, "title": "R Workshops for Stafford University", "link": "teaching.html#stafford" }, "geometry": { "type": "Point", "coordinates": [ -2.176196539448072, 53.007787915595344 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 2, "title": "Spatial R for Ecology", "link": "sheffield.html" }, "geometry": { "type": "Point", "coordinates": [ -1.487785897186738, 53.381549178871659 ] } }
+{ "type": "Feature", "properties": { "id": 2, "title": "Spatial R for Ecology", "link": "teaching.html#sheffield" }, "geometry": { "type": "Point", "coordinates": [ -1.487785897186738, 53.381549178871659 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 1, "title": "Spatial Workshop", "link": "user2012.html" }, "geometry": { "type": "Point", "coordinates": [ -86.787939262006262, 36.159631948291128 ] } }
+{ "type": "Feature", "properties": { "id": 1, "title": "Spatial Workshop", "link": "teaching.html#user2012" }, "geometry": { "type": "Point", "coordinates": [ -86.787939262006262, 36.159631948291128 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 9, "title": "Google Summer of Code Mentoring", "link": "gsoc.html" }, "geometry": { "type": "Point", "coordinates": [ -122.083947384330827, 37.385227796872904 ] } }
+{ "type": "Feature", "properties": { "id": 9, "title": "Google Summer of Code Mentoring", "link": "teaching.html#gsoc" }, "geometry": { "type": "Point", "coordinates": [ -122.083947384330827, 37.385227796872904 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 7, "title": "SFU Spatial Statistics Summer School", "link": "sfu.html" }, "geometry": { "type": "Point", "coordinates": [ -122.907225624422637, 49.277248388378126 ] } }
+{ "type": "Feature", "properties": { "id": 7, "title": "SFU Spatial Statistics Summer School", "link": "teaching.html#sfu" }, "geometry": { "type": "Point", "coordinates": [ -122.907225624422637, 49.277248388378126 ] } }
 ,
-{ "type": "Feature", "properties": { "id": 10, "title": "Open Source Geospatial", "link": "osgeoworkshops.html" }, "geometry": { "type": "Point", "coordinates": [ -1.135044474566526, 52.635951082851172 ] } }
+{ "type": "Feature", "properties": { "id": 10, "title": "Open Source Geospatial", "link": "teaching.html#osgeoworkshops" }, "geometry": { "type": "Point", "coordinates": [ -1.135044474566526, 52.635951082851172 ] } }
 
 ]
 }
