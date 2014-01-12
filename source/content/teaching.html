@@ -1,16 +1,24 @@
-title": "Teaching at Lancaster", "link": "teaching.html#lancaster" 
+{% extends "contentonly.j2" %}
+{% import "parts.html" as parts %}
+{% block title %}Barry Rowlingson - Teaching{% endblock title %}
+{% block section %}
+<h1>Teaching Work</h1>
 
-title": "R Workshops for Stafford University", "link": "teaching.html#stafford" 
+{% call parts.articleRight('Teaching at Lancaster',  'lancaster.png','lancaster') %}
+{% endcall %}
+{% call parts.articleRight('R Workshops for Stafford University',  'stafford.png','stafford') %}
+{% endcall %}
+{% call parts.articleRight('Spatial R for Ecology',  'sheffield.png','sheffield') %}
+{% endcall %}
+{% call parts.articleRight('Spatial Workshop',  'user2012.png','user2012') %}
+{% endcall %}
+{% call parts.articleRight('Google Summer of Code Mentoring',  'gsoc.png','gsoc') %}
+{% endcall %}
+{% call parts.articleRight('SFU Spatial Statistics Summer School',  'sfu.png','sfu') %}
+{% endcall %}
+{% call parts.articleRight('Open Source Geospatial',  'osgeoworkshops.png','osgeoworkshops') %}
+{% endcall %}
+{% call parts.articleRight('The Quest Project',  'quest.png','quest') %}
+{% endcall %}
 
-title": "Spatial R for Ecology", "link": "teaching.html#sheffield" 
-
-title": "Spatial Workshop", "link": "teaching.html#user2012" 
-
-title": "Google Summer of Code Mentoring", "link": "teaching.html#gsoc"
-
-title": "SFU Spatial Statistics Summer School", "link": "teaching.html#sfu" 
-
-title": "Open Source Geospatial", "link": "teaching.html#osgeoworkshops" 
-
-Quest
-
+{% endblock section %}

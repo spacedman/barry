@@ -1,7 +1,8 @@
-===
-extends: contentonly.j2
-default_block: section
-===
+{% extends  "contentonly.j2" %}
+{% block title %}
+Barry Rowlingson - Contact Details
+{% endblock title %}
+{% block section %}
 <h1>Contact Details</h1>
 <p>Here is a list of contact details and web profile pages where you will find me.</p>
 <ul class="no-bullet">
@@ -16,4 +17,6 @@ default_block: section
 If you want my <em>home</em> or <em>personal</em> contact details (address, phone number) then
 send me an email and you might get them.
 </p>
+{% endblock section %}
+
 

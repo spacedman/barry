@@ -1,7 +1,8 @@
-===
-extends: contentonly.j2
-default_block: section
-===
+{% extends "contentonly.j2" %}
+{% block title %}
+Site Info
+{% endblock title %}
+{% block section %}
 <h1>Site Information</h1>
 <p>
 This web site is built using:
@@ -13,3 +14,4 @@ This web site is built using:
 <li>QGIS for spatial data handling</li>
 </ul>
 </p>
+{% endblock section %}
