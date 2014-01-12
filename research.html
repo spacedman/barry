@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barry Rowlingson - Work</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/media/css/foundation.css" />
     <script src="/media/js/modernizr.js"></script>
   </head>
@@ -32,7 +33,7 @@ list a few of the more interesting and significant ones.
 
 <hr/>
 
-<article>
+<article id="malaria">
 <div class="row">
 <div class="large-12 columns">
 <h3>Modelling Childhood Malaria in The Gambia</h3>
@@ -58,7 +59,7 @@ on malaria rates based on possible increased distribution and use of treated or 
 
 <hr/>
 
-<article>
+<article id="meningitis">
 <div class="row">
 <div class="large-12 columns">
 <h3>Meningitis Prediction</h3>
@@ -66,18 +67,25 @@ on malaria rates based on possible increased distribution and use of treated or 
 </div>
 <div class="row">
 <div class="medium-3 columns">
-<img  src="/media/img/gambiamalaria.png" />
+<img  src="/media/img/amendsys.png" />
 </div>
 <div class="medium-9 columns">
-<p>this is all about that thing</p>
-<p>This is some more thing</p>
+<p>The Meningitis Belt is a wide region across several countries in sub-Saharan Africa.
+We received weekly data on case counts from some of these countries, and predicted
+the probability of regions going above the epidemic threshold.
+</p>
+<p>
+A web interface was designed to act as an early-warning system of potential epidemics
+and to act as a map and data browser and repository.
+</p>
+
 
 </div>
 </div>
 </article>
 <hr/>
 
-<article>
+<article id="loaloa">
 <div class="row">
 <div class="large-12 columns">
 <h3>Loaloa treatment risk mapping</h3>
@@ -85,18 +93,26 @@ on malaria rates based on possible increased distribution and use of treated or 
 </div>
 <div class="row">
 <div class="medium-3 columns medium-push-9">
-<img  src="/media/img/gambiamalaria.png" />
+<img  src="/media/img/exceedenceMap.png" />
 </div>
 <div class="medium-9 medium-pull-3 columns">
-<p>this is all about that thing</p>
-<p>This is some more thing</p>
+<p>Treatment for River Blindness (Onchocerciasis) with Mectizan can be accompanied
+by severe side-effects if the treated person is infected with Loa loa filariasis. By analysing
+the joint distribution of a cheap, rapid, but imprecise survey and a more expensive, slower
+laboratory testing we produced a risk map for Loa loa filariasis. This map incorporated spatial
+covariates such as climate and altitude data, to produce an assessment of areas where Loa loa
+is unlikely to be a problem, and areas where more sampling is required.
+</p>
+<p>A plugin for the Open Source GIS, <a href="http://www.qgis.org">QGIS</a> was developed
+to allow for easy data entry and prediction in the field.
+</p>
 
 </div>
 </div>
 </article>
 <hr/>
 
-<article>
+<article id="prescribing">
 <div class="row">
 <div class="large-12 columns">
 <h3>Mapping NHS Prescription Spending</h3>
@@ -120,7 +136,7 @@ and all the data is released under an Open license too.</p>
 </div>
 </article><hr/>
 
-<article>
+<article id="alderhey">
 <div class="row">
 <div class="large-12 columns">
 <h3>Hospital Admissions Prediction</h3>
@@ -128,17 +144,21 @@ and all the data is released under an Open license too.</p>
 </div>
 <div class="row">
 <div class="medium-3 columns medium-push-9">
-<img  src="/media/img/gambiamalaria.png" />
+<img  src="/media/img/a-and-e.png" />
 </div>
 <div class="medium-9 medium-pull-3 columns">
-<p>this is all about that thing</p>
-<p>This is some more thing</p>
+<p>
+We are working with Alder Hey Children's Hospital to help predict emergency admissions. This
+will enable them to better schedule elective procedures to make full use of hospital
+resources. We will be running daily updated predictions on the current hospital configuration
+and working towards implementation as the hospital expands into its new building.
+</p>
 
 </div>
 </div>
 </article><hr/>
 
-<article>
+<article id="butterfly">
 <div class="row">
 <div class="large-12 columns">
 <h3>Butterfly Behaviour Modelling</h3>
@@ -146,17 +166,24 @@ and all the data is released under an Open license too.</p>
 </div>
 <div class="row">
 <div class="medium-3 columns">
-<img  src="/media/img/gambiamalaria.png" />
+<img  src="/media/img/butterflymap.png" />
 </div>
 <div class="medium-9 columns">
-<p>this is all about that thing</p>
-<p>This is some more thing</p>
+<p>The Australian butterfly  <em>Hypochrysops Halyaetus</em> has a complex life cycle.
+It lives in large colonies and has a mutually beneficial relationship with a species of ant,
+and a reliance on certain plants for egg-laying and feeding.
+</p>
+<p>
+This implies its small-scale spatial behaviour needs to be well understood for conservation planning.
+We analysed butterfly captures and local spatial data to fit a model for habitat suitability with
+consideration of spatial autocorrelation. This work was published in <a href="http://dx.doi.org/10.1016/j.biocon.2004.09.014">Biological Conservation</a>.
+</p>
 
 </div>
 </div>
 </article><hr/>
 
-<article>
+<article id="legion">
 <div class="row">
 <div class="large-12 columns">
 <h3>Seasonal Patterns of Legionnaire's Disease</h3>
@@ -164,18 +191,24 @@ and all the data is released under an Open license too.</p>
 </div>
 <div class="row">
 <div class="medium-3 columns medium-push-9">
-<img  src="/media/img/gambiamalaria.png" />
+<img  src="/media/img/legionnaires.png" />
 </div>
 <div class="medium-9 medium-pull-3 columns">
-<p>this is all about that thing</p>
-<p>This is some more thing</p>
+<p>Any phenomenon with an annual pattern is likely to have a significant correlation with
+every other annually-patterned phenomenon. For example, sales of strawberries will appear correlated with childrens' emergency admissions. But we can be confident 
+strawberry sales aren't causing the emergency admissions, its just that children are more active in the summer and so have more accidents.
+</p>
+<p>Legionnaire's Disease is known to have a seasonal
+pattern, so appears correlated with weather data such as rainfall, humidity, or wind. However,
+once the yearly pattern is accounted for, there is power to look for more possible causal
+relationships with weather. We did this analysis for cases in Glasgow for a publication in <a href="http://dx.doi.org/10.1017/S095026881200101X">Epidemiology and Infection</a>.</p>
 
 </div>
 </div>
 </article><hr/>
 
 
-<article>
+<article id="aegiss">
 <div class="row">
 <div class="large-12 columns">
 <h3>Gastro-Intestinal Outbreak Surveillance</h3>
@@ -183,11 +216,18 @@ and all the data is released under an Open license too.</p>
 </div>
 <div class="row">
 <div class="medium-3 columns">
-<img  src="/media/img/gambiamalaria.png" />
+<img  src="/media/img/aegiss.png" />
 </div>
 <div class="medium-9 columns">
-<p>AEGISS and AEGISS2</p>
-<p>This is some more thing</p>
+<p>For the AEGISS project we received daily reports of gastro-intestinal case data from
+the NHS Direct helpline for Hampshire. These were  modelled against expected case incidences
+to produce relative risk maps. These maps were then presented in a web mapping interface with calendar and 'traffic light' controls.
+</p>
+<p>
+A new research grant is investigating a wider roll-out of a spatial surveillance system, and is 
+developing re-usable tools for this.
+</p>
+
 
 </div>
 </div>

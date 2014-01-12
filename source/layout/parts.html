@@ -1,5 +1,5 @@
-{% macro articleRight(heading,image) -%}
-<article>
+{% macro articleRight(heading,image,tag) -%}
+<article id="{{tag}}">
 <div class="row">
 <div class="large-12 columns">
 <h3>{{heading}}</h3>
@@ -16,8 +16,8 @@
 </article>
 {%- endmacro %}
 
-{% macro articleLeft(heading,image) -%}
-<article>
+{% macro articleLeft(heading,image,tag) -%}
+<article id="{{tag}}">
 <div class="row">
 <div class="large-12 columns">
 <h3>{{heading}}</h3>
