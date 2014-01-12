@@ -44,4 +44,5 @@
 !!python/unicode 'media/maps/travel.geojson': []
 !!python/unicode 'research.html': [parts.html, topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'siteinfo.html': [topbottom.j2, foundation.j2, contentonly.j2]
+!!python/unicode 'teaching.html': []
 !!python/unicode 'work.html': [topbottom.j2, foundation.j2, contentonly.j2]
