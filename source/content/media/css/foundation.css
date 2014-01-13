@@ -43,7 +43,7 @@ body {
   cursor: default; }
 
 a:hover {
-  cursor: pointer; }
+  cursor: pointer; text-decoration:underline}
 
 img,
 object,

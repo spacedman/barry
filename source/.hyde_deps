@@ -11,6 +11,7 @@
 !!python/unicode 'contact.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'index.html': [topbottom.j2, foundation.j2]
 !!python/unicode 'life.html': [topbottom.j2, foundation.j2, contentonly.j2]
+!!python/unicode 'media/css/custom.css': []
 !!python/unicode 'media/css/foundation.css': []
 !!python/unicode 'media/css/foundation.min.css': []
 !!python/unicode 'media/css/normalize.css': []
