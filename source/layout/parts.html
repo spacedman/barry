@@ -33,3 +33,42 @@
 </div>
 </article>
 {%- endmacro %}
+
+
+
+{% macro articleRightLink(heading,image,tag,link) -%}
+<article id="{{tag}}">
+<div class="row">
+<div class="large-12 columns">
+<h3><a href="{{link}}">{{heading}}</a></h3>
+</div>
+</div>
+<div class="row">
+<div class="medium-3 columns medium-push-9">
+<a href="{{link}}"><img  src="/media/img/{{image}}" /></a>
+</div>
+<div class="medium-9 medium-pull-3 columns">
+{{ caller() }}
+</div>
+</div>
+</article>
+{%- endmacro %}
+
+{% macro articleLeftLink(heading,image,tag,link) -%}
+<article id="{{tag}}">
+<div class="row">
+<div class="large-12 columns">
+<h3><a href="{{link}}">{{heading}}</a></h3>
+</div>
+</div>
+<div class="row">
+<div class="medium-3 columns">
+<a href="{{link}}"><img  src="/media/img/{{image}}" />
+</a>
+</div>
+<div class="medium-9 columns">
+{{ caller() }}
+</div>
+</div>
+</article>
+{%- endmacro %}

@@ -16,6 +16,7 @@
 !!python/unicode 'media/css/foundation.min.css': []
 !!python/unicode 'media/css/normalize.css': []
 !!python/unicode 'media/img/.gitkeep': []
+!!python/unicode 'media/js/custom.js': []
 !!python/unicode 'media/js/foundation.min.js': []
 !!python/unicode 'media/js/foundation/foundation.abide.js': []
 !!python/unicode 'media/js/foundation/foundation.accordion.js': []
@@ -47,4 +48,5 @@
 !!python/unicode 'research.html': [parts.html, topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'siteinfo.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'teaching.html': [parts.html, topbottom.j2, foundation.j2, contentonly.j2]
+!!python/unicode 'travel.html': [parts.html, topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'work.html': [topbottom.j2, foundation.j2, contentonly.j2]
