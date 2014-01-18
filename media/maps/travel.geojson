@@ -5,6 +5,8 @@ var travel=[
 "features": [
 { "type": "Feature", "properties": { "id": 2, "title": "Cycling the Ridgeway", "link": "travel.html#ridgeway" }, "geometry": { "type": "Point", "coordinates": [ -1.85446716344477, 51.427496719882669 ] } }
 ,
+{ "type": "Feature", "properties": { "id": 5, "title": "Driving Across Ireland", "link": "travel.html#ireland" }, "geometry": { "type": "Point", "coordinates": [ -9.9825066, 53.605385] } }
+,
 { "type": "Feature", "properties": { "id": 1, "title": "Overland to Morocco", "link": "travel.html#morocco" }, "geometry": { "type": "Point", "coordinates": [ -5.855958634275384, 32.544538637686699 ] } }
 ,
 { "type": "Feature", "properties": { "id": 4, "title": "California travels", "link": "travel.html#california" }, "geometry": { "type": "Point", "coordinates": [ -121.87734654090211, 36.579150072225644 ] } }
