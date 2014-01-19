@@ -3,3 +3,8 @@ p.more {float: right; margin-top: -20px; margin-right: 1em}
 code {color: black}
 
 article img {margin-bottom: 1em}
+
+img.thumb {margin: 0.25em 1em; }
+
+img.thumb left {float: left}
+img.thumb right {float: right}
