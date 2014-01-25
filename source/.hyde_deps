@@ -1,4 +1,5 @@
 !!python/unicode '.hyde_deps': []
+!!python/unicode '404.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/index.html': [listing.j2, foundation.j2, contentonly.j2, topbottom.j2,
