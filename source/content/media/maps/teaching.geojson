@@ -16,6 +16,8 @@ var teaching=[
 { "type": "Feature", "properties": { "id": 7, "title": "SFU Spatial Statistics Summer School", "link": "teaching.html#sfu" }, "geometry": { "type": "Point", "coordinates": [ -122.907225624422637, 49.277248388378126 ] } }
 ,
 { "type": "Feature", "properties": { "id": 10, "title": "Open Source Geospatial", "link": "teaching.html#osgeoworkshops" }, "geometry": { "type": "Point", "coordinates": [ -1.135044474566526, 52.635951082851172 ] } }
+,
+{ "type": "Feature", "properties": { "id": 55, "title": "Geostats Summer School", "link": "teaching.html#geostats" }, "geometry": { "type": "Point", "coordinates": [ 5.303157436273819, 60.422601248536978 ] } }
 
 ]
 }
