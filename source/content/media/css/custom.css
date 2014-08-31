@@ -8,3 +8,11 @@ img.thumb {margin: 0.25em 1em; }
 
 img.thumb left {float: left}
 img.thumb right {float: right}
+
+ul.tags a:hover {color: white; }
+ul.tags a:visited {color: white; }
+
+article time {
+    font-weight: light;
+    font-size: 90%; display: block; padding-bottom: 1em; color: rgb(0,121,161);
+}

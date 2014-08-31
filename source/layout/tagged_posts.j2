@@ -2,7 +2,7 @@
 
 {% block section %}
 <section class="archives">
-<h1 class="tag title">{{ tag.name }}</h1>
+<h1 class="tag title">Posts tagged: <code>{{ tag.name }}</code></h1>
 <ul class="posts clear">
 {% for resource in walker() -%}
 <li class="post clear">
@@ -11,10 +11,10 @@
     </time>
     <a href="{{ content_url(resource.url) }}">{{ resource.meta.title }}</a>
     {% if resource.meta.tags %}
-    <ul class="tags">
+    <ul class="tags inline-list">
     {% for tag in resource.meta.tags %}
     <li>
-        <a class="small" href="{{ content_url('blog/tags/'~tag~'.html') }}">
+        <a class="label round" href="{{ content_url('blog/tags/'~tag~'.html') }}">
             {{ tag }}
         </a>
     </li>

@@ -6,8 +6,16 @@
   macros.j2]
 !!python/unicode 'blog/newblog-post.html': [blog.j2, topbottom.j2, foundation.j2,
   contentonly.j2]
+!!python/unicode 'blog/tags/data science.html': [foundation.j2, contentonly.j2, topbottom.j2,
+  tagged_posts.j2]
+!!python/unicode 'blog/tags/news.html': [foundation.j2, contentonly.j2, topbottom.j2,
+  tagged_posts.j2]
+!!python/unicode 'blog/tags/teaching.html': [foundation.j2, contentonly.j2, topbottom.j2,
+  tagged_posts.j2]
 !!python/unicode 'blog/tags/web.html': [foundation.j2, contentonly.j2, topbottom.j2,
   tagged_posts.j2]
+!!python/unicode 'blog/uk-data-science-masters.html': [blog.j2, topbottom.j2, foundation.j2,
+  contentonly.j2]
 !!python/unicode 'collaborations.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'contact.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'index.html': [topbottom.j2, foundation.j2]
