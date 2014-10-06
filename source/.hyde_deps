@@ -2,9 +2,8 @@
 !!python/unicode '404.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
-!!python/unicode 'blog/index.html': [!!python/unicode 'blog/uk-data-science-masters.html',
-  listing.j2, foundation.j2, contentonly.j2, !!python/unicode 'blog/newblog-post.html',
-  topbottom.j2, macros.j2]
+!!python/unicode 'blog/index.html': [listing.j2, foundation.j2, contentonly.j2, topbottom.j2,
+  macros.j2]
 !!python/unicode 'blog/newblog-post.html': [blog.j2, topbottom.j2, foundation.j2,
   contentonly.j2]
 !!python/unicode 'blog/tags/data science.html': [foundation.j2, contentonly.j2, topbottom.j2,
