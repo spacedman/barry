@@ -1,5 +1,7 @@
 p.more {float: right; margin-top: -20px; margin-right: 1em}
 
+
+body > div:nth-child(2) > div > article > p:nth-child(4) {font-style: italic; font-size: 120%}
 code {color: black}
 
 article img {margin-bottom: 1em}

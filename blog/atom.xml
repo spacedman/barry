@@ -7,10 +7,105 @@
         <link href="/"/>
     
         
-    <updated>2014-10-06T21:23:31Z</updated>
+    <updated>2014-11-21T19:15:46Z</updated>
 
     <id>/blog/atom.xml/</id>
 
+            <entry>
+            <title type="html">A Year in Stack Overflow</title>
+            <author><name>Lakshmi Vyasarajan</name></author>
+            <link href="/blog/a-year-in-so.html"/>
+            <updated>2014-11-21T18:00:00Z</updated>
+            <published>2014-11-21T18:00:00Z</published>
+            <id>/blog/a-year-in-so.html</id>
+                        <category   scheme="/blog/tags"
+                        term="teaching"
+                        label="Teaching" />
+            
+            <content type="html">
+                                &lt;p&gt;365 Consecutive Days On Stack Overflow. Why?
+&lt;p&gt;There was a trend a while ago for photographers to announce they 
+were doing &amp;#8216;a 365&amp;#8217;. They meant they were going to take a picture
+every day, and post it online. Soon their photostreams were full of 
+badly instagrammed food and&amp;nbsp;selfies. &lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve recently completed a slightly different 365. Every day for the
+past 365 days I&amp;#8217;ve checked the &lt;a href=&#34;http://www.stackoverflow.com&#34;&gt;Stack Overflow&lt;/a&gt;
+site. StackOverflow (henceforth &amp;#8216;&lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt;&amp;#8217;) is a question-and-answer site for
+programming questions. Its one of the
+&lt;a href=&#34;http://stackexchange.com/&#34;&gt;Stack Exchange&lt;/a&gt; collection of
+question-and-answer sites for asking just about anything. Computing, 
+language, &lt;span class=&#34;caps&#34;&gt;TV&lt;/span&gt; and movies, parenting, religion, poker, and bicycles are just a 
+few of the component&amp;nbsp;sites.&lt;/p&gt;
+&lt;p&gt;At the 2011 &lt;a href=&#34;http://web.warwick.ac.uk/statsdept/user-2011/&#34;&gt;R User
+Meeting&lt;/a&gt; I did a
+lightning talk suggesting we take R programming questions over to &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt;
+and leave the R-help mailing list for announcements and more opinionated
+forms of discussion. Although I can&amp;#8217;t claim that to be the cause, 
+traffic on the mailing list has declined and the number of questions
+&lt;a href=&#34;http://stackoverflow.com/questions/tagged/r&#34;&gt;tagged R&lt;/a&gt; is now over
+seventy&amp;nbsp;thousand.&lt;/p&gt;
+&lt;p&gt;I think it was back in about March that I noticed I&amp;#8217;d not missed a day
+on &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt; since November. A couple of months later I realised again I hadn&amp;#8217;t broken that run.
+By the time I was off away to Bergen in Norway for a week in July I was 
+consciously trying to keep it going. Thanks to hotel and airport
+Wifi I managed to check &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt; every day. I&amp;#8217;ve probably only had a couple
+of weekends away this past year so its never been a problem. I can 
+check &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt; on my phone over a data connection if I need. So I did. Then
+a couple of days ago the consecutive days counter clicked over to 365 
+and then to&amp;nbsp;366.&lt;/p&gt;
+&lt;p&gt;What does that all mean? Well, for one it indicates how connected we
+are. The internet was there every day for me for a year. Along with
+reading and writing on &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt; I checked my email, tweeted, read the news,
+and probably did some work&amp;nbsp;too.&lt;/p&gt;
+&lt;p&gt;But what did I do on &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt;? I can check. &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt; has a data explorer where you 
+can build a query and download a &lt;span class=&#34;caps&#34;&gt;CSV&lt;/span&gt; file of metadata about your posts.
+Load that into R and summaries are&amp;nbsp;easy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I asked a grand total of five&amp;nbsp;questions. &lt;/li&gt;
+&lt;li&gt;Four of them had answers I felt were&amp;nbsp;acceptable.&lt;/li&gt;
+&lt;li&gt;I answered 300&amp;nbsp;questions.&lt;/li&gt;
+&lt;li&gt;The people who asked the questions accepted 171 of my answers as the&amp;nbsp;solution.&lt;/li&gt;
+&lt;li&gt;There are 84 questions still waiting for the asker to accept an answer. That might never&amp;nbsp;happen.&lt;/li&gt;
+&lt;li&gt;The remaining 45 had another answer accepted as the best&amp;nbsp;answer. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I can also check the tags for the questions I&amp;#8217;ve answered. Tags are used to 
+categorise questions on &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt;, and a question can have several tags assigned. 
+Of those 300 questions I&amp;nbsp;answered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;there were 298 unique&amp;nbsp;tags.&lt;/li&gt;
+&lt;li&gt;288 questions had the &lt;code&gt;r&lt;/code&gt; tag.&lt;/li&gt;
+&lt;li&gt;10 had the &lt;code&gt;python&lt;/code&gt; tag.&lt;/li&gt;
+&lt;li&gt;15 were tagged &lt;code&gt;ggplot2&lt;/code&gt; and/or &lt;code&gt;plot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;igraph&lt;/code&gt; had 9 tagged&amp;nbsp;questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then there&amp;#8217;s a long long tail, with 223 tags making a single appearance,
+including things like &lt;code&gt;ruby&lt;/code&gt;, &lt;code&gt;julia-lang&lt;/code&gt;, &lt;code&gt;java&lt;/code&gt;, and &lt;code&gt;fortran&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;As well as questions and answers, I&amp;#8217;ve probably made even more comments
+on questions and answers. The quality can be appalling, but people
+soon learn the netiquette. A bunch of us hang out in the R chat room
+on &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt;, sending a flurry of downvotes or close-requests to anything
+that needs improving or&amp;nbsp;removing. &lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve occasionally popped over to some of the other &lt;span class=&#34;caps&#34;&gt;SE&lt;/span&gt; sites. The &lt;a href=&#34;http://gis.stackexchange.com/&#34;&gt;&lt;span class=&#34;caps&#34;&gt;GIS&lt;/span&gt;
+Stack Exchange&lt;/a&gt; is a good place to ask
+and learn about the latest mapping software. The &lt;a href=&#34;http://datascience.stackexchange.com/&#34;&gt;Data
+Science&lt;/a&gt; site is however a bit
+rubbish, full of inappropriate questions or things that return
+opinionated answers or where answers would be impossible to squeeze
+into a text box. Its currently a &amp;#8216;beta&amp;#8217; site on &lt;span class=&#34;caps&#34;&gt;SE&lt;/span&gt;, and I don&amp;#8217;t know
+if it will survive. Its greatest utility at the moment is as a place
+to dump poor machine-learning questions posted on&amp;nbsp;&lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve learnt a lot this year. I find &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt; is a great place to learn, by
+answering questions more than asking them. You can also learn by 
+seeing what the other answers are. This year has been one of great
+debate between the &lt;code&gt;data.table&lt;/code&gt; crowd and the &lt;code&gt;dplyr/pipes&lt;/code&gt; mob. Some
+people have been posting answers using base R code, data.table, and
+dplyr solutions, with benchmarking. The winner in this battle is all
+of us, since we have many possible solutions for an infinite number
+of&amp;nbsp;problems.&lt;/p&gt;
+&lt;p&gt;I don&amp;#8217;t know how long this run will last. Now I&amp;#8217;ve written this up I
+could intentionally avoid &lt;span class=&#34;caps&#34;&gt;SO&lt;/span&gt; tomorrow. But there might just be one
+interesting&amp;nbsp;question&amp;#8230;&lt;/p&gt;&lt;/p&gt;            </content>
+        </entry>
             <entry>
             <title type="html">UK Data Science MSc Courses</title>
             <author><name>Lakshmi Vyasarajan</name></author>
