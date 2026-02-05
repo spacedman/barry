@@ -21,7 +21,8 @@
 !!python/unicode 'blog/uk-data-science-masters.html': [blog.j2, topbottom.j2, foundation.j2,
   contentonly.j2]
 !!python/unicode 'collaborations.html': [topbottom.j2, foundation.j2, contentonly.j2]
-!!python/unicode 'contact.html': [topbottom.j2, foundation.j2, contentonly.j2]
+!!python/unicode 'contact.html': [!!python/unicode 'topbottom.j2', !!python/unicode 'foundation.j2',
+  !!python/unicode 'contentonly.j2']
 !!python/unicode 'index.html': [topbottom.j2, foundation.j2]
 !!python/unicode 'life.html': [topbottom.j2, foundation.j2, contentonly.j2]
 !!python/unicode 'media/css/custom.css': []
