@@ -18,7 +18,7 @@ var sMap = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', 
 
 
 
-sMap.addTo(map);
+baseMap.addTo(map);
 
 var RedIcon = L.Icon.Default.extend({
     options: {iconUrl: "/media/img/marker-red.png"}
