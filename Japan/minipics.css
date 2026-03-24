@@ -1,0 +1,11 @@
+
+ppp.minipics { border: 2px dotted #feb7b7; width:auto; float: left; padding: 4px; margin-bottom: 1em; clear: left;}
+
+div.minipics { border: 2px solid #feb7b7; margin: 0px 0px 1em 0px; text-align: center; background: #fff;
+background-image: url(graphics/imgflag.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+img.minipic { vertical-align: middle; border: 6px solid #ddd; margin: 5px 5px 5px 5px; }
+

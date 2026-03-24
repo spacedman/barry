@@ -1,0 +1,210 @@
+/* CSS-based Image Maps
+   Author: Frank Manno
+   Version: Nov. 25, 2004
+----------------------------------------------- */
+
+/* ---------- hidden ONLY if CSS is enabled.  If disabled, image is rendered ---------- */
+img.image{ display: none; z-layer: 0;}
+
+dl#japanMap{
+	margin: 0;
+	padding: 0;
+	background: transparent url(graphics/japan.png) top left no-repeat;
+	height: 559px;
+	width: 560px;
+	position: relative;
+ z-index: 0;
+}
+
+dt{ margin: 0; padding: 0; position: absolute; font-size: 85%; display: none; }
+dd{ margin: 0; padding: 0; position: absolute;  font-size: 85%;}
+/* dd a{ border: 1px solid red; } */
+/* ---------- Hotspot Declarations ---------- */
+dd#hiroshimaDef{ top: 390px; left: 60px;  }
+dd#hiroshimaDef a{ position: absolute; width: 73px; height: 29px; text-decoration: none; }
+dd#hiroshimaDef a span{ display: none; }
+dd#hiroshimaDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#hiroshimaDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+  text-align: center;
+}
+
+
+
+dd#tokyoDef{ top: 340px; left: 335px;  }
+dd#tokyoDef a{ position: absolute; width: 73px; height: 29px; text-decoration: none; }
+dd#tokyoDef a span{ display: none; }
+dd#tokyoDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#tokyoDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+ text-align: center;
+}
+
+
+dd#nagoyaDef{ top: 380px; left: 238px;  }
+dd#nagoyaDef a{ position: absolute; width: 50px; height: 29px; text-decoration: none; }
+dd#nagoyaDef a span{ display: none; }
+dd#nagoyaDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#nagoyaDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+ text-align: center;
+}
+
+
+
+dd#jigokudaniDef{ top: 310px; left: 220px;  }
+dd#jigokudaniDef a{ position: absolute; width: 85px; height: 29px; text-decoration: none; }
+dd#jigokudaniDef a span{ display: none; }
+dd#jigokudaniDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#jigokudaniDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+ text-align: center;
+}
+
+
+dd#fujisanDef{ top: 352px; left: 260px;  }
+dd#fujisanDef a{ position: absolute; width: 65px; height: 23px; text-decoration: none; }
+dd#fujisanDef a span{ display: none; }
+dd#fujisanDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#fujisanDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+ text-align: center;
+}
+
+
+dd#shizuokaDef{ top: 390px; left: 300px;  }
+dd#shizuokaDef a{ position: absolute; width: 65px; height: 23px; text-decoration: none; }
+dd#shizuokaDef a span{ display: none; }
+dd#shizuokaDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#shizuokaDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+  text-align: center;
+}
+
+
+dd#koyasanDef{ top: 422px; left: 200px;  }
+dd#koyasanDef a{ position: absolute; width: 60px; height: 26px; text-decoration: none; }
+dd#koyasanDef a span{ display: none; }
+dd#koyasanDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#koyasanDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+        width: 250%;
+ text-align: center;
+}
+
+
+
+dd#kyotoDef{ top: 375px; left: 185px;  }
+dd#kyotoDef a{ position: absolute; width: 48px; height: 26px; text-decoration: none; }
+dd#kyotoDef a span{ display: none; }
+dd#kyotoDef a:hover{ position: absolute;  top: -10px; left: -5px; }
+dd#kyotoDef a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: white;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #feb7b7;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+ text-align: center;
+}
+
+span.mapData { background-image: url(graphics/flag.png);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-color: white;
+}
+
+div#introPara  { background-image: url(graphics/flag.png);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-color: white;
+position: absolute;
+ top: 100px;
+ left: 200px;
+ border: 2px solid #feb7b7;
+ width: 250px;
+z-index: 1;
+padding: 0 1em 0 1em;
+}
