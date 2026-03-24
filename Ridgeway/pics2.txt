@@ -1,0 +1,103 @@
+#
+# day 1
+#
+<a href="images/imgp4248.jpg" rel="lightbox" title="my bike is ready" ><img  src="thumbnails/imgp4248.jpg"  title="my bike is ready" ></a>
+<a href="images/imgp4252.jpg" rel="lightbox" title="wheatfield" ><img  src="thumbnails/imgp4252.jpg"  title="wheatfield" ></a>
+<a href="images/imgp4253.jpg" rel="lightbox" title="tomorrow's bread" ><img  src="thumbnails/imgp4253.jpg"  title="tomorrow's bread" ></a>
+<a href="images/imgp4262.jpg" rel="lightbox" title="red kite soars" ><img  src="thumbnails/imgp4262.jpg"  title="red kite soars" ></a>
+#
+# day 2
+#
+<a href="images/imgp4271.jpg" rel="lightbox" title="ridgeway starts for us" ><img  src="thumbnails/imgp4271.jpg"  title="ridgeway starts for us" ></a>
+<a href="images/imgp4272.jpg" rel="lightbox" title="ridgeway sign" ><img  src="thumbnails/imgp4272.jpg"  title="ridgeway sign" ></a>
+<a href="images/imgp4279.jpg" rel="lightbox" title="caroline skins her elbow" ><img  src="thumbnails/imgp4279.jpg"  title="caroline skins her elbow" ></a>
+<a href="images/imgp4281.jpg" rel="lightbox" title="siesta time" ><img  src="thumbnails/imgp4281.jpg"  title="siesta time" ></a>
+<a href="images/imgp4283.jpg" rel="lightbox" title="baron's monument" ><img  src="thumbnails/imgp4283.jpg"  title="baron's monument" ></a>
+<a href="images/imgp4284.jpg" rel="lightbox" title="baron's monument" ><img  src="thumbnails/imgp4284.jpg"  title="baron's monument" ></a>
+<a href="images/imgp4287.jpg" rel="lightbox" title="hill fort ditch and bank" ><img  src="thumbnails/imgp4287.jpg"  title="hill fort ditch and bank" ></a>
+
+<a href="images/imgp4273.jpg" rel="lightbox" title="poppy" ><img  src="thumbnails/imgp4273.jpg"  title="poppy" ></a>
+<a href="images/imgp4274.jpg" rel="lightbox" title="poppy" ><img  src="thumbnails/imgp4274.jpg"  title="poppy" ></a>
+<a href="images/imgp4276.jpg" rel="lightbox" title="poppies" ><img  src="thumbnails/imgp4276.jpg"  title="poppies" ></a>
+<a href="images/imgp4275.jpg" rel="lightbox" title="poppy" ><img  src="thumbnails/imgp4275.jpg"  title="poppy" ></a>
+<a href="images/imgp4348.jpg" rel="lightbox" title="poppies" ><img  src="thumbnails/imgp4348.jpg"  title="poppies" ></a>
+
+
+<a href="images/imgp4288.jpg" rel="lightbox" title="devils punchbowl" ><img  src="thumbnails/imgp4288.jpg"  title="devils punchbowl" ></a>
+<a href="images/imgp4292.jpg" rel="lightbox" title="white horse" ><img  src="thumbnails/imgp4292.jpg"  title="white horse" ></a>
+<a href="images/imgp4293.jpg" rel="lightbox" title="tamworth pig" ><img  src="thumbnails/imgp4293.jpg"  title="tamworth pig" ></a>
+#
+# day 3
+#
+<a href="images/imgp4294.jpg" rel="lightbox" title="ridgeway" ><img  src="thumbnails/imgp4294.jpg"  title="ridgeway" ></a>
+<a href="images/imgp4295.jpg" rel="lightbox" title="ridgeway" ><img  src="thumbnails/imgp4295.jpg"  title="ridgeway" ></a>
+<a href="images/imgp4296.jpg" rel="lightbox" title="uffington white horse" ><img  src="thumbnails/imgp4296.jpg"  title="uffington white horse" ></a>
+<a href="images/imgp4297.jpg" rel="lightbox" title="the manger" ><img  src="thumbnails/imgp4297.jpg"  title="the manger" ></a>
+<a href="images/imgp4298.jpg" rel="lightbox" title="dragon hill" ><img  src="thumbnails/imgp4298.jpg"  title="dragon hill" ></a>
+<a href="images/imgp4299.jpg" rel="lightbox" title="white horse" ><img  src="thumbnails/imgp4299.jpg"  title="white horse" ></a>
+<a href="images/imgp4301.jpg" rel="lightbox" title="the manger" ><img  src="thumbnails/imgp4301.jpg"  title="the manger" ></a>
+<a href="images/imgp4303.jpg" rel="lightbox" title="white horse" ><img  src="thumbnails/imgp4303.jpg"  title="white horse" ></a>
+<a href="images/imgp4304.jpg" rel="lightbox" title="white horse and dragon hill" ><img  src="thumbnails/imgp4304.jpg"  title="white horse and dragon hill" ></a>
+<a href="images/imgp4305.jpg" rel="lightbox" title="white horse front leg" ><img  src="thumbnails/imgp4305.jpg"  title="white horse front leg" ></a>
+<a href="images/imgp4309.jpg" rel="lightbox" title="white horse" ><img  src="thumbnails/imgp4309.jpg"  title="white horse" ></a>
+<a href="images/imgp4310.jpg" rel="lightbox" title="white horse" ><img  src="thumbnails/imgp4310.jpg"  title="white horse" ></a>
+<a href="images/imgp4319.jpg" rel="lightbox" title="flower" ><img  src="thumbnails/imgp4319.jpg"  title="flower" ></a>
+<a href="images/imgp4312.jpg" rel="lightbox" title="waylands smithy" ><img  src="thumbnails/imgp4312.jpg"  title="waylands smithy" ></a>
+<a href="images/imgp4313.jpg" rel="lightbox" title="waylands smithy" ><img  src="thumbnails/imgp4313.jpg"  title="waylands smithy" ></a>
+<a href="images/imgp4321.jpg" rel="lightbox" title="waylands smithy" ><img  src="thumbnails/imgp4321.jpg"  title="waylands smithy" ></a>
+<a href="images/imgp4323.jpg" rel="lightbox" title="pixie peeks round the stone" ><img  src="thumbnails/imgp4323.jpg"  title="pixie peeks round the stone" ></a>
+<a href="images/imgp4322.jpg" rel="lightbox" title="caroline at waylands smithy" ><img  src="thumbnails/imgp4322.jpg"  title="caroline at waylands smithy" ></a>
+<a href="images/imgp4325.jpg" rel="lightbox" title="waylands smithy" ><img  src="thumbnails/imgp4325.jpg"  title="waylands smithy" ></a>
+<a href="images/imgp4326.jpg" rel="lightbox" title="waylands smithy" ><img  src="thumbnails/imgp4326.jpg"  title="waylands smithy" ></a>
+<a href="images/imgp4331.jpg" rel="lightbox" title="waylands smithy" ><img  src="thumbnails/imgp4331.jpg"  title="waylands smithy" ></a>
+<a href="images/imgp4330.jpg" rel="lightbox" title="waylands smithy" ><img  src="thumbnails/imgp4330.jpg"  title="waylands smithy" ></a>
+<a href="images/imgp4334.jpg" rel="lightbox" title="wheatfield" ><img  src="thumbnails/imgp4334.jpg"  title="wheatfield" ></a>
+<a href="images/imgp4335.jpg" rel="lightbox" title="crop circle" ><img  src="thumbnails/imgp4335.jpg"  title="crop circle" ></a>
+<a href="images/imgp4337.jpg" rel="lightbox" title="crop circle" ><img  src="thumbnails/imgp4337.jpg"  title="crop circle" ></a>
+<a href="images/imgp4338.jpg" rel="lightbox" title="crop circle" ><img  src="thumbnails/imgp4338.jpg"  title="crop circle" ></a>
+<a href="images/imgp4341.jpg" rel="lightbox" title="uphill struggle" ><img  src="thumbnails/imgp4341.jpg"  title="uphill struggle" ></a>
+<a href="images/imgp4342.jpg" rel="lightbox" title="onward" ><img  src="thumbnails/imgp4342.jpg"  title="onward" ></a>
+<a href="images/imgp4345.jpg" rel="lightbox" title="only pub on route" ><img  src="thumbnails/imgp4345.jpg"  title="only pub on route" ></a>
+<a href="images/imgp4346.jpg" rel="lightbox" title="only pub on route" ><img  src="thumbnails/imgp4346.jpg"  title="only pub on route" ></a>
+<a href="images/imgp4343.jpg" rel="lightbox" title="apple and caramel" ><img  src="thumbnails/imgp4343.jpg"  title="apple and caramel" ></a>
+<a href="images/imgp4344.jpg" rel="lightbox" title="chocolate cake" ><img  src="thumbnails/imgp4344.jpg"  title="chocolate cake" ></a>
+<a href="images/imgp4347.jpg" rel="lightbox" title="poppies" ><img  src="thumbnails/imgp4347.jpg"  title="poppies" ></a>
+<a href="images/imgp4350.jpg" rel="lightbox" title="sign on ridgeway" ><img  src="thumbnails/imgp4350.jpg"  title="sign on ridgeway" ></a>
+<a href="images/imgp4351.jpg" rel="lightbox" title="view from ridgeway" ><img  src="thumbnails/imgp4351.jpg"  title="view from ridgeway" ></a>
+<a href="images/imgp4352.jpg" rel="lightbox" title="ridgeway view" ><img  src="thumbnails/imgp4352.jpg"  title="ridgeway view" ></a>
+<a href="images/imgp4353.jpg" rel="lightbox" title="my bike takes a rest" ><img  src="thumbnails/imgp4353.jpg"  title="my bike takes a rest" ></a>
+<a href="images/imgp4354.jpg" rel="lightbox" title="cottage" ><img  src="thumbnails/imgp4354.jpg"  title="cottage" ></a>
+<a href="images/imgp4357.jpg" rel="lightbox" title="siesta time" ><img  src="thumbnails/imgp4357.jpg"  title="siesta time" ></a>
+<a href="images/imgp4360.jpg" rel="lightbox" title="roundhouse reconstruction" ><img  src="thumbnails/imgp4360.jpg"  title="roundhouse reconstruction" ></a>
+<a href="images/imgp4363.jpg" rel="lightbox" title="silbury hill" ><img  src="thumbnails/imgp4363.jpg"  title="silbury hill" ></a>
+<a href="images/imgp4365.jpg" rel="lightbox" title="avebury stone" ><img  src="thumbnails/imgp4365.jpg"  title="avebury stone" ></a>
+<a href="images/imgp4366.jpg" rel="lightbox" title="avebury stone" ><img  src="thumbnails/imgp4366.jpg"  title="avebury stone" ></a>
+<a href="images/imgp4368.jpg" rel="lightbox" title="avebury stone" ><img  src="thumbnails/imgp4368.jpg"  title="avebury stone" ></a>
+<a href="images/imgp4378.jpg" rel="lightbox" title="avebury" ><img  src="thumbnails/imgp4378.jpg"  title="avebury" ></a>
+<a href="images/imgp4382.jpg" rel="lightbox" title="sheep and stone" ><img  src="thumbnails/imgp4382.jpg"  title="sheep and stone" ></a>
+<a href="images/imgp4383.jpg" rel="lightbox" title="avebury ditch" ><img  src="thumbnails/imgp4383.jpg"  title="avebury ditch" ></a>
+<a href="images/imgp4388.jpg" rel="lightbox" title="caroline at avebury" ><img  src="thumbnails/imgp4388.jpg"  title="caroline at avebury" ></a>
+<a href="images/imgp4391.jpg" rel="lightbox" title="stone" ><img  src="thumbnails/imgp4391.jpg"  title="stone" ></a>
+<a href="images/imgp4393.jpg" rel="lightbox" title="avebury stone" ><img  src="thumbnails/imgp4393.jpg"  title="avebury stone" ></a>
+<a href="images/imgp4396.jpg" rel="lightbox" title="caroline finds a seat" ><img  src="thumbnails/imgp4396.jpg"  title="caroline finds a seat" ></a>
+<a href="images/imgp4398.jpg" rel="lightbox" title="my hand on the stone" ><img  src="thumbnails/imgp4398.jpg"  title="my hand on the stone" ></a>
+<a href="images/imgp4394.jpg" rel="lightbox" title="tour group" ><img  src="thumbnails/imgp4394.jpg"  title="tour group" ></a>
+<a href="images/imgp4397.jpg" rel="lightbox" title="trying dowsing" ><img  src="thumbnails/imgp4397.jpg"  title="trying dowsing" ></a>
+<a href="images/imgp4401.jpg" rel="lightbox" title="dead tree sunset" ><img  src="thumbnails/imgp4401.jpg"  title="dead tree sunset" ></a>
+#
+# day 4
+#
+<a href="images/imgp4423.jpg" rel="lightbox" title="windmill hill barrow" ><img  src="thumbnails/imgp4423.jpg"  title="windmill hill barrow" ></a>
+<a href="images/imgp4424.jpg" rel="lightbox" title="windmill hill barrow" ><img  src="thumbnails/imgp4424.jpg"  title="windmill hill barrow" ></a>
+<a href="images/imgp4425.jpg" rel="lightbox" title="strange sign" ><img  src="thumbnails/imgp4425.jpg"  title="strange sign" ></a>
+<a href="images/imgp4426.jpg" rel="lightbox" title="cherhill" ><img  src="thumbnails/imgp4426.jpg"  title="cherhill" ></a>
+<a href="images/imgp4429.jpg" rel="lightbox" title="cherhill church" ><img  src="thumbnails/imgp4429.jpg"  title="cherhill church" ></a>
+<a href="images/imgp4430.jpg" rel="lightbox" title="cherhill church graveyard" ><img  src="thumbnails/imgp4430.jpg"  title="cherhill church graveyard" ></a>
+<a href="images/imgp4432.jpg" rel="lightbox" title="bridge" ><img  src="thumbnails/imgp4432.jpg"  title="bridge" ></a>
+<a href="images/imgp4434.jpg" rel="lightbox" title="hey hey mama" ><img  src="thumbnails/imgp4434.jpg"  title="hey hey mama" ></a>
+<a href="images/imgp4436.jpg" rel="lightbox" title="bridge" ><img  src="thumbnails/imgp4436.jpg"  title="bridge" ></a>
+<a href="images/imgp4437.jpg" rel="lightbox" title="bridge" ><img  src="thumbnails/imgp4437.jpg"  title="bridge" ></a>
+<a href="images/imgp4438.jpg" rel="lightbox" title="bridge" ><img  src="thumbnails/imgp4438.jpg"  title="bridge" ></a>
+<a href="images/imgp4440.jpg" rel="lightbox" title="elevenses here" ><img  src="thumbnails/imgp4440.jpg"  title="elevenses here" ></a>
+<a href="images/imgp4441.jpg" rel="lightbox" title="milestone" ><img  src="thumbnails/imgp4441.jpg"  title="milestone" ></a>
+<a href="images/imgp4450.jpg" rel="lightbox" title="teazles" ><img  src="thumbnails/imgp4450.jpg"  title="teazles" ></a>

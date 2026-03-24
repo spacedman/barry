@@ -1,0 +1,169 @@
+/****
+THIS IS THE CSS FOR GEMINI. THE CODING IS PRETTY STRAIGHT-FORWARD,
+BUT IF YOU NEED ANY HELP FEEL FREE TO EMAIL ME (kmcannon [at] telus [dot] net.
+***/
+body {
+	margin:0;
+	padding:0;
+	background:#6DA18B url(repeat.gif) repeat-y top left;
+	font-size:78%;
+	font-family:Helvetica, Arial, Sans-serif;
+}	
+/****************       COMMON ELEMENTS           *******/
+
+body.image { 
+	background:#6DA18B url(repeatImage.gif) repeat-y top center;
+ }
+
+/****************           LINKS           ********/
+a {
+	color:#4290B8;
+}
+
+a:hover {
+	color:#59806F;
+	text-decoration:none;
+}	
+/****************          HEADINGS          *******/
+h1, h2 {
+	margin:0;
+	padding:10px 0 0 40px;
+	font-family:Tahoma, Arial, Sans-serif;
+	font-weight:normal;
+	font-size:1.6em;
+	color:#333;
+}
+/**********                         PARAGRAPHS         ******/
+p {
+	text-indent:10px;
+	padding-left:10px;
+}
+/***********                        TABLES                     ******/
+table {
+	width:100%;
+	border:1px solid #ccc;
+	border-collapse:collapse;
+	margin-left:10px;
+}
+
+td {
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+th {
+	background:#e5e5e5;
+}	
+
+/******************           INDEPENDANT DIVS AND CLASSES            ****/
+/*****                    MAIN CONTAINER      *****/
+#container {
+	width:840px;
+	margin:0 19px;
+}
+/*********                    HEADER                          *******/
+#header {
+	background:url(headbg.jpg) no-repeat;
+	height:166px;
+	border-bottom:1px solid #ccc;
+	overflow:hidden; /* Keeps header from blowing up when text size is incresased  **/
+}
+
+.image #header{ 
+	background:url(headImage.jpg) no-repeat;
+  height: 66px;
+ }
+
+#header h1, #header h2 {
+	color:#fff;
+	padding:55px 0 0 75px;
+	font-size:3em;
+}	
+
+#header h2 {
+	font-size:1.2em;
+	padding:0 0 0 65px;
+	margin-top:-6px;
+}	
+
+.image #header h1, .image #header h2 { 
+  padding: 10px 0 0 75px;
+ font-size: 1.5em;
+ }
+.image #header h2 { 
+  font-size: 1em;
+padding-left: 60px;
+margin-top: -12px;
+ }
+
+/***********                      LEFT COLUMN           *****/
+#leftcol {
+
+	float:left;
+	width:550px;
+}
+/************                    RIGHT COLUMN         ****/
+#rightcol {
+	width:240px;
+	float:right;
+}
+
+#rightcol h1 {
+	font-size:1.3em;
+	padding-left:20px;
+	font-weight:bold;
+	font-family:helvetica, arial, sans-serif;
+}	
+
+img {border: 0 ;  }
+
+img.portrait {   /**        The main image in the sidebar     **/
+	background:#fff;
+	padding:4px;
+	border:1px solid #ccc;
+	display:block;
+	margin:10px auto 0 auto;
+}	
+
+#rightcol li {
+	line-height:1.5em;
+	list-style:none;
+}	
+/****************                NAVIGATION IN RIGHT COLUMN         *******/
+#nav {
+	list-style:none;
+	padding-left:17px;
+	margin:0 auto;
+}
+
+#nav li {
+	background:#fff;
+	width:210px;
+	height:1.8em;
+	line-height:1.8em;
+	text-align:center;
+	font-size:1.2em;
+	margin:5px 0;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}	
+
+#nav li a {
+	color:#333;
+	text-decoration:none;
+	display:block;
+	width:210px;
+}	
+
+#nav li a:hover {
+	background:#4C83BA;
+	color:#fff;
+}	
+/******************                  FOOTER                 ****/
+#footer {
+	text-align:center;
+	background:#fff;
+	clear:both;
+	margin:0;
+	border-top:1px solid #ccc;
+}	
