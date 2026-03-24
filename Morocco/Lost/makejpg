@@ -1,0 +1,12 @@
+#!/bin/sh
+
+for f in *.xcf ; do
+
+t=`basename $f .xcf`.jpg
+
+echo $f
+
+ xcftopnm $f | convert - $t
+
+
+done

@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Morocco Diary</title>
+</head>
+<body bgcolor=#ffffff text=#000000 background="Graphics/bkg.jpg">
+
+<h1>Morocco Diary</h1>
+
+<!--#exec cgi="/cgi-bin/log.pl"--> 
+
+This is the writeup of the diary I kept whilst on the road. Either
+start at Day 1 and proceed as we did, or pick days at random.
+
+<ul>
+<li><a href="Day01">Day 1 - Lancaster to Northern France</a>
+<li><a href="Day02">Day 2 - Northern France to a Southern France Service Station</a>
+<li><a href="Day03">Day 3 - Southern France to a Spanish Service Station</a>
+<li><a href="Day04">Day 4 - Spanish Service Station to a Worse Spanish Service Station</a>
+<li><a href="Day05">Day 5 - Worse Service Station to the Beach From Hell</a>
+<li><a href="Day06">Day 6 - Gibraltar and Back</a>
+<li><a href="Day07">Day 7 - Back to Gibraltar</a>
+<li><a href="Day08">Day 8 - To Morocco and Beyond</a>
+<li><a href="Day09">Day 9 - Tangier To Meknes</a>
+<li><a href="Day10">Day 10 - A Day In Meknes</a>
+<li><a href="Day11">Day 11 - Meknes to The High Atlas</a>
+<li><a href="Day12">Day 12 - High Atlas to Ouarzazate</a>
+<li><a href="Day13">Day 13 - Ouarzazate to Zagora</a>
+<li><a href="Day14">Day 14 - From Zagora into the Desert</a>
+<li><a href="Day15">Day 15 - Through the Desert to Erfoud</a>
+<li><a href="Day16">Day 16 - A Day In Erfoud</a>
+<li><a href="Day17">Day 17 - Erg Chebbi - the Sahara</a>
+<li><a href="Day18">Day 18 - To The Cascades</a>
+<li><a href="Day19">Day 19 - From The Cascades To Marakesh</a>
+<li><a href="Day20">Day 20 - A Day In Marakesh</a>
+<li><a href="Day21">Day 21 - Marakesh to Ifrane</a>
+<li><a href="Day22">Day 22 - Ifrane to Volubilis</a>
+<li><a href="Day23">Day 23 - A Day in Volubilis</a>
+<li><a href="Day24">Day 24 - Volubilis to Meknes</a>
+<li><a href="Day25">Day 25 - Return to Gibraltar</a>
+<li><a href="Day26">Day 26 - To the Worst Spanish Service Station</a>
+<li><a href="Day27">Day 27 - A Grotty French Service Station</a>
+<li><a href="Day28">Day 28 - Southern France to Dover and Beyond</a>
+<li><a href="Day29">Day 29 - Dover to Lancaster</a>
+<li><a href="Day30">Day 30 - Sam Leaves Lancaster</a>
+</ul>
+<p>
+<a href="./">Home Page</a>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Lost in Marakesh</title>
+</head>
+<body bgcolor=#ffffff text=#000000>
+
+<img src="lost.gif">
+
+<h1>Day 19 - Marakesh</h1>
+
+We arrive in Marakesh, and we're looking for the hotel that is on the
+main square, the Djemaa El Fna. Of course, we're on one side of the
+medina, and the square is on the other side. So we try and drive
+through the medina to it.
+<p>
+
+You can recreate our experience of getting through the medina. Try and
+find your way through the maze of narrow streets and past the shops
+and stalls. Click on the mosque below to start.
+
+<center>
+<a href="marakesh1.html"><img src="mosque.gif" border=0></a>
+</center>
+
+<!--#exec cgi="/cgi-bin/log.pl"--> 
+
+</body>
+</html>
