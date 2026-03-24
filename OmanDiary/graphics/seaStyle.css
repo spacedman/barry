@@ -1,0 +1,48 @@
+body {
+background: #7ea3a1 url(seaSkySlice.jpg) repeat-x top; 
+background-position: 450px 0px;
+font: 83%/150% verdana, arial;
+margin: 0px;
+padding: 0px;
+}
+
+p.text { background-color: #9ec3c1; padding: 10px; text-align: left; clear:both; }
+
+
+#content{   background: url(seasky2.jpg) no-repeat top left; }
+
+#head { padding-left: 10px; border-top: 1px solid #7ea3a1;}
+
+#main { 
+padding-top: 95px;
+ }
+
+
+#footer { clear: both; text-align: center; background-color: #98c3c1; border: 1px solid #7ea3a1; }
+
+#footlist li { display: inline; background-color: #7ea3a1; border: 4px solid #7ea3a1; margin: 2px;}
+
+
+
+li.contents { font-size: large;}
+li.nextDay { font-size: large; }
+li.prevDay { font-size: large; }
+
+
+.img-shadow {
+  float: left;
+  background: url(shadowBlue.png) no-repeat bottom right !important; 
+/*  background: url(shadow.gif) no-repeat bottom right; */
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+  }
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+  }
+

@@ -1,0 +1,36 @@
+body {
+
+background: #E6CCB3 url(../graphics/seaSkySlice.png) repeat-x top; 
+
+font: 83%/150% verdana, arial;
+margin: 0px;
+padding: 0px;
+}
+
+p.text { background-color: #f6dcc3; padding: 10px; text-align: left; clear:both; }
+
+#head {   background: url(../graphics/desert.jpg) no-repeat top left; height: 255px; margin-top: -18px; } 
+
+p.image {background-color: #dddddd; text-align: center; clear:both; }
+
+#main { 
+  top: 255px;
+  position: absolute;
+ }
+
+.img-shadow {
+  float: left;
+  background: url(../graphics/shadowAlpha.png) no-repeat bottom right !important;
+  background: url(../graphics/shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+  }
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+  }

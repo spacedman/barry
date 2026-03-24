@@ -1,0 +1,51 @@
+ #navlist
+{
+clear: both;
+border-bottom: 1px solid  #f6dcc3;
+border-top: 1px solid   #f6dcc3;
+margin: 0px;
+margin-bottom: 30px;
+padding: 0px;
+padding-left: 10px;
+background-color: #a7886c ;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+padding-bottom: 3px;
+padding-top: 3px;
+}
+
+/* desert colour scheme:  #f6dcc3 #e6ccb3 #a7886c */
+
+#navlist a, #navlist a:link, #navlist a:visited
+{
+border: 1px solid #e6ccb3;
+padding: 1px;
+padding-left: 0.5em;
+padding-right: 0.5em;
+color: black;
+text-decoration: none;
+}
+
+#navlist a:hover
+{
+border: 1px solid black;
+padding: 1px;
+padding-left: 0.5em;
+padding-right: 0.5em;
+text-decoration: none;
+}
+
+#navlist li
+{
+padding-right: 1px;
+display: inline;
+font-size: 1em;
+}
+
+#navlist ul
+{
+margin: 0px;
+padding: 0px;
+}
+
+#navlist #active a { background-color:#f6dcc3;   }
+#navlist #index { padding-right: 4em; }

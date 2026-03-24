@@ -1,0 +1,23 @@
+body {
+background: #7ea3a1 url(seaSkySlice.jpg) repeat-x top; 
+background-position: 450px 0px;
+font: 83%/150% verdana, arial;
+margin: 0px;
+padding: 0px;
+}
+
+h1 { padding-left: 1em; }
+
+#content{   background: url(seasky2.jpg) no-repeat top left; }
+
+#head {  border-top: 1px solid #7ea3a1;}
+
+#main { 
+padding-top: 110px;
+ }
+
+
+p.text { background-color: #9ec3c1; padding: 10px; text-align: left; clear:both; }
+
+p.image {background-color: #dddddd; text-align: center; clear:both; }
+

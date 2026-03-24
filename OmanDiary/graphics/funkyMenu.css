@@ -1,0 +1,55 @@
+#menu {
+  padding:0;
+  margin:0;
+  padding-left: 1em;
+  width:0;
+  }
+#menu li {
+  list-style-type:none;
+margin:0 0 0.25em 0; 
+  }
+#menu a, #menu a:visited {
+position: relative;
+  display:block;
+  width:25em;
+  border:1px solid #9ec3c1;
+  font-family:arial, verdana, sans-serif; /* ADDED */
+  font-size:0.8em; /* ADDED */
+  text-decoration:none; /* ADDED */
+ background:#5e7391;
+  color:#eee; /* ADDED */
+padding: 0.25em;
+padding-left: 1em;
+  }
+
+#menu a:hover {
+  background:#ddd;
+  color:#808;
+  }
+#menu a span {
+  display: none;
+  }
+#menu a:hover span {
+  display:block;
+  position: absolute;
+  left: 27em;
+  top: 0;
+  text-align:left; /* ADDED */
+  padding:0.5em;  /* ADDED */
+  width:26em; /* ADDED */
+  background-color:#9ec3c1; /* ADDED */
+  color:#000; /* ADDED */ 
+  border:2px solid #5e7391; 
+  }
+
+#menu img {
+  border:1px solid #000;  
+  float:left;  
+   margin:0.25em 1em 0.5em 0;
+  }
+
+#menu a:hover span:first-line {
+  font-weight:bold; 
+  font-size:1.2em;
+  color:#e7391;
+  }

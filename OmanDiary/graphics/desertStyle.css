@@ -1,0 +1,38 @@
+body {
+
+background: #e6ccb3 url(colourSliceCamel.png) repeat-x top; 
+/* this is the width of the desert.jpg image */
+background-position: 480px 0px;
+font: 83%/150% verdana, arial;
+margin: 0px;
+padding: 0px;
+}
+
+p.text { background-color: #f6dcc3; padding: 10px; text-align: left; clear:both; }
+
+#content{   background: url(desert.png) no-repeat top left; }
+
+#head { padding-left: 10px; border-top: 1px solid #025bff;}
+
+div.image {background-color: #dddddd; text-align: center; clear:both; }
+
+#main { 
+  padding-top: 125px;
+ }
+
+.img-shadow {
+  float: left;
+  background: url(shadowDesert.png) no-repeat bottom right !important; 
+/*  background: url(shadow.gif) no-repeat bottom right; */
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+  }
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+  }
